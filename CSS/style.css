@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+/* Zerando CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Fundo-tela */
+
+html {
+    background-color: #9FE3F9;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:column; 
+    align-items: center;
+    justify-content:center;
+}
+    /* Containers */
+.card {
+    display: flex;
+    flex-direction:column; 
+    background-color: azure;
+    border-radius: 16px 16px;
+    width: 25%;
+    height: 80%;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+}
+.container {
+    padding-top: 10px;
+  }
+
+  figure img{
+    border-radius: 16px;
+    width: 100%
+}
+
+
+div.container h1 {
+    margin:0;
+    padding:0;
+    font-size: 1.5rem;
+    
+}
+div.container p {
+    font-size: 0.75rem;
+    color: gray;
+    padding-top: 20px;
+
+}
+@media (min-width: 2350px) and (max-width: 2560px) {
+    figure img {
+    border-radius: 50px;
+    width: 700px;
+}
+div.container h1 {
+    font-size: 4.5rem;
+}
+div.container p {
+    font-size: 2.5rem;
+    padding: 0px;
+}
+.card {
+    width: 40%;
+    height: 80%;
+    padding: 22px;
+    border-radius: 50px;
+}
+}
+@media (min-width: 2159px) and (max-width: 2349px) {
+    figure img {
+    border-radius: 50px;
+    width: 100%;
+}
+div.container h1 {
+    font-size: 2.5rem;
+}
+div.container p {
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+.card {
+    width: 20%;
+    height: 61%;
+    padding: 30px;
+    border-radius: 50px;
+}
+}
+
+
+@media (min-width: 1500px) and (max-width: 2219px) {
+    div.container h1 {
+        font-size: 2.5rem;
+    }
+    div.container p {
+        font-size: 1.5rem;
+        padding-top: 15px;
+    }
+    .card {
+        width: 25%;
+        height: 86%;
+        padding: 16px;
+        border-radius: 30px;
+    }
+    figure img {
+        border-radius: 30px;
+    }
+}
+@media (min-width: 1100px) and (max-width: 1440px) and (min-height: 675px){
+    .card {
+    border-radius: 34px;
+    width: 22%;
+    height: 70%;
+    padding: 13px;
+    }
+    div.container h1 {
+        font-size: 2rem;
+    }
+    div.container p {
+        font-size: 1rem;
+}
+}
+@media (max-width: 1051px) {
+    .card {
+        height: 77%;
+    }
+  
+}
+
+    
+@media (min-width: 375px) and (max-width: 425px) {
+    .card {
+        width: 55%;
+        height: 70%;
+        padding: 10px;
+    }
+    div.container p {
+        padding-top: 15px;
+    }
+}
+@media (max-width: 320px){
+    .card {
+    width: 50%;
+    height: 55%;
+    padding: 10px;
+    }
+    div.container p {
+        font-size: 0.7rem;
+        padding-top: 10px;
+    }
+    div.container h1 {
+        font-size: 1rem;
+    }
+}
+
+/* 
+body {
+    background-color: #9FE3F9;
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    min-height:100vh;
+}
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.box {
+    background-color: white;
+    padding: 6px 20px;
+} */
